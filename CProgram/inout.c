@@ -4,16 +4,16 @@
 //                           FB : SAYM ISLAM JIHAD
 //                                   </>
 
-// git add ., git commit -m "updater name",git push
-
 
 #include<stdio.h>
 
-int main(void){
-    printf("Hello world!\nNow i am programmer\nNew line a jaw\n");
-    printf("\tThis is a tab\n");
-    // printf("Now i am a programmer!\n");
-    // printf("\\");
-    //Hello
-    return 0;
+int main()
+{
+    int a,b;
+    char p;
+    printf("Enter any number : ");
+    //scanf("%d%c %d%c",&a,&p,&b,&p);
+    //printf("%d%% %d%%\n",a,b);
+    scanf("%d%% %d%%",&a,&b);
+    printf("%d%% %d%%",a,b);
 }
