@@ -4,8 +4,10 @@
 //                           FB : SAYM ISLAM JIHAD
 //                                   </>
 
+// git add ., git commit -m "updater name",git push
+
 
 #include<stdio.h>
 int main(void){
-    printf("Hello world");
+    printf("Hello world!");
 }
