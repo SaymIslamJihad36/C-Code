@@ -8,6 +8,11 @@
 
 
 #include<stdio.h>
+
 int main(void){
-    printf("Hello world!");
+    printf("Hello world!\nNow i am programmer\nNew line a jaw\n");
+    printf("\tThis is a tab\n");
+    // printf("Now i am a programmer!\n");
+    // printf("\\");
+    return 0;
 }
