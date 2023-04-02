@@ -4,6 +4,7 @@
 //                           FB : SAYM ISLAM JIHAD
 //                                   </>
 
+
 #include<stdio.h>
 
 int main()
@@ -14,4 +15,5 @@ int main()
     double c = 2.567898879574657;
     printf("%0.15lf\n",c);
 }
+
 
