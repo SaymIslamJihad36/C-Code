@@ -14,6 +14,5 @@ int main(void){
     printf("\tThis is a tab\n");
     // printf("Now i am a programmer!\n");
     // printf("\\");
-    //Hello
     return 0;
 }
