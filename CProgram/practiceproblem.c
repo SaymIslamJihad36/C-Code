@@ -39,7 +39,7 @@ int main(){
     int a;
     printf("Enter your number : ");
     scanf("%d",&a);
-    if(a>0){
+    if(a>=0){
         if(a%2!=0){
             printf("odd\n");
         }else{
