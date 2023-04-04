@@ -96,3 +96,42 @@ int main(){
     }
     return 0;
 }
+
+
+// 6) Write a C program to input any alphabet and check whether it is vowel or consonant.
+
+#include<stdio.h>
+
+int main(){
+    char alp;
+    printf("Enter any char(A-Z) : ");
+    scanf("%c",&alp);
+    if(alp>='A' && alp<='Z'){
+        if(alp=='A'||alp=='E'||alp=='I'||alp=='O'||alp=='U'){
+            printf("Vowel\n");
+        }else{
+            printf("Consonant\n");
+        }
+    }else{
+        printf("Enter a valid charecter...");
+    }
+}
+
+
+// 7) Write a C program to input any character and check whether it is charecter, digit or special character.
+
+#include<stdio.h>
+
+int main(){
+    char ch;
+    printf("Enter : ");
+    scanf("%c",&ch);
+    if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z')){
+        printf("This is a charecter\n");
+    }else if(ch>='0' && ch<= '9'){
+        printf("This is a digit\n");
+    }else{
+        printf("This is a special charecter\n");
+    }
+}
+
