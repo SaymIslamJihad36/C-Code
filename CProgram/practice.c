@@ -1,3 +1,10 @@
+//                                   </>
+//                             SAYM ISLAM JIHAD
+//                      STUDENT AT PHITRON SPRING 2023
+//                           FB : SAYM ISLAM JIHAD
+//                                   </>
+
+
 //1) Write a C program to find maximum between two numbers.
 
 
