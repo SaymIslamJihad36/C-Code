@@ -35,14 +35,18 @@ int main(void){
 
 #include<stdio.h>
 
-int main(void){
+int main(){
     int a;
-    printf("Enter : ");
+    printf("Enter your number : ");
     scanf("%d",&a);
-    if(a%2!=0){
-        printf("odd\n");
+    if(a>0){
+        if(a%2!=0){
+            printf("odd\n");
+        }else{
+            printf("even\n");
+        }
     }else{
-        printf("even\n");
+        printf("Enter valid number pls...");
     }
 }
 
