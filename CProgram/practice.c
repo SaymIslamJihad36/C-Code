@@ -331,3 +331,51 @@ int main(){
     printf("sum : %d\n",sum);
 }
 
+
+// 7) Write a C program to find sum of all even numbers between 1 to n.
+
+#include<stdio.h>
+
+int main(){
+    int sum = 0;
+    int n;
+    printf("Enter n : ");
+    scanf("%d",&n);
+    for(int i=2;i<=n;i+=2){
+        sum+=i;
+    }
+    printf("sum : %d\n",sum);
+}
+
+
+// 8) Write a C program to find sum of all odd numbers between 1 to n.
+
+#include<stdio.h>
+
+int main(){
+    int sum = 0;
+    int n;
+    printf("Enter n : ");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i+=2){
+        sum+=i;
+    }
+    printf("sum : %d\n",sum);
+}
+
+// 9) Write a C program to print multiplication table of any number.
+
+#include<stdio.h>
+
+int main(){
+    int n;
+    int mlt;
+    printf("Enter number : ");
+    scanf("%d",&n);
+    for(int i=1;i<=10;i++){
+        mlt = n*i;
+        printf("%d * %d = %d\n",n,i,mlt);
+    }
+}
+
+
