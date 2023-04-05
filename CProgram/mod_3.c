@@ -77,3 +77,42 @@ int main(){
     }
 }
 
+
+//Continue statement 
+
+#include<stdio.h>
+
+int main(){
+    for(int i=0;i<=10;i++){
+        if(i==5){
+            continue;
+        }
+        printf("%d\n",i);
+    }
+}
+
+
+//While loop
+
+#include<stdio.h>
+
+int main(){
+    int i=1;
+    while(i<=5){
+        printf("%d\n",i);
+        i++;
+    }
+}
+
+
+
+#include<stdio.h>
+
+int main(){
+    int i=100;
+    do{
+        printf("%d\n",i);
+        i++;
+    }while(i<=5);
+}
+
