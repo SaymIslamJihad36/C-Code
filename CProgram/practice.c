@@ -224,3 +224,110 @@ int main(){
 }
 
 
+//---------------------Loop-------------------
+
+
+// 1) Write a C program to print all natural numbers from 1 to n. – using while loop
+
+#include<stdio.h>
+
+int main(){
+    int n;
+    printf("Enter n for print natural numbers : ");
+    scanf("%d",&n);
+    int i=1;
+    while(i<=n){
+        printf("%d\n",i);
+        i++;
+    }
+}
+
+
+
+// 2) Write a C program to print all natural numbers in reverse (from n to 1). – using while loop
+
+#include<stdio.h>
+
+int main(){
+    int n;
+    printf("Enter n to revers natural numbers : ");
+    scanf("%d",&n);
+    int i=n;
+    while(i>=1){
+        printf("%d\n",i);
+        i--;
+    }
+}
+---
+#include<stdio.h>
+
+int main(){
+    int n;
+    printf("Enter n to revers natural numbers : ");
+    scanf("%d",&n);
+    int i=1;
+    while(n>=i){
+        printf("%d\n",n);
+        n--;
+    }
+}
+
+// 3) Write a C program to print all alphabets from a to z. – using while loop
+
+#include<stdio.h>
+
+int main(){
+    char alp='A';
+    while(alp<='Z'){
+        printf("%c\n",alp);
+        alp++;
+    }
+}
+
+
+// 4) Write a C program to print all even numbers between 1 to 100. – using while loop
+
+#include<stdio.h>
+
+int main(){
+    int n=1;
+    while(n<=100){
+        if(n%2==0){
+            printf("%d\n",n);
+        }
+        n++;
+    }
+}
+
+
+// 5) Write a C program to print all odd number between 1 to 100.
+
+#include<stdio.h>
+
+int main(){
+    int n=1;
+    while(n<=100){
+        if(n%2!=0){
+            printf("%d\n",n);
+        }
+        n++;
+    }
+}
+
+
+
+//6) Write a C program to find sum of all natural numbers between 1 to n.
+
+#include<stdio.h>
+
+int main(){
+    int sum = 0;
+    int n;
+    printf("Enter n : ");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+        sum+=i;
+    }
+    printf("sum : %d\n",sum);
+}
+
