@@ -7,7 +7,7 @@
 
 //1) Write a C program to find maximum between two numbers.
 
-/*
+
 #include<stdio.h>
 
 int main(){
@@ -410,4 +410,4 @@ int main()
     printf("Digits of the n is : %d\n",count);
 }
 
-*/
+
