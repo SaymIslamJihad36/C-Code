@@ -411,3 +411,52 @@ int main()
 }
 
 
+// 12) C program to find last digit of any number
+
+#include<stdio.h>
+
+int main(){
+    int n;
+    printf("Enter n number : ");
+    scanf("%d",&n);
+    int last_digit;
+    last_digit = n%10;
+    printf("Last digit is = %d\n",last_digit);
+}
+
+
+// 13) C program to find first digit of any number
+
+#include<stdio.h>
+
+int main()
+{
+    int n,first;
+    printf("Enter n : ");
+    scanf("%d",&n);
+    first = n;
+    for(;first>=10;){
+        first = first/10;
+    }
+    printf("First digit is = %d\n",first);
+}
+
+
+// 14) C program to find first and last digit of any number
+
+#include<stdio.h>
+
+int main()
+{
+    int n,first,last;
+    printf("Entet numbers : ");
+    scanf("%d",&n);
+    first = n;
+    last = n%10;
+    for(;first>=10;)
+    {
+        first = first/10;
+    }
+    printf("First digit is = %d\n",first);
+    printf("Last digit is = %d\n",last);
+}
