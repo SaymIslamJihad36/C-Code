@@ -7,7 +7,7 @@
 
 //1) Write a C program to find maximum between two numbers.
 
-
+/*
 #include<stdio.h>
 
 int main(){
@@ -359,6 +359,7 @@ int main(){
     scanf("%d",&n);
     for(int i=1;i<=n;i+=2){
         sum+=i;
+ 
     }
     printf("sum : %d\n",sum);
 }
@@ -379,3 +380,34 @@ int main(){
 }
 
 
+//10) Get input of 4 variables in differant datatypes
+#include<stdio.h>
+
+int main(){
+    int a;
+    long long b;
+    float c;
+    char d;
+    scanf("%d %lld %f %c",&a,&b,&c,&d);
+    printf("%d\n%lld\n%f\n%c\n",a,b,c,d);
+}
+
+
+// 11) Write a C program to count number of digits in a number.
+
+#include<stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int count = 0;
+    for(;n>0;)
+    {
+        count++;
+        n/=10;
+    }
+    printf("Digits of the n is : %d\n",count);
+}
+
+*/
