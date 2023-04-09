@@ -4,7 +4,7 @@
 //                           FB : SAYM ISLAM JIHAD
 //                                   </>
 
-
+/*
 #include<stdio.h>
 
 int main(){
@@ -116,3 +116,4 @@ int main(){
     }while(i<=5);
 }
 
+*/
