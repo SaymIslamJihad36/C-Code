@@ -7,7 +7,7 @@
 
 //1) Write a C program to find maximum between two numbers.
 
-/*
+
 #include<stdio.h>
 
 int main(){
@@ -475,7 +475,7 @@ int main()
     }
     printf("First digit is = %d\n",first);
 }
-*/
+
 // #include<stdio.h>
 
 // int main(){

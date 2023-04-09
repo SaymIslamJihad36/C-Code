@@ -93,3 +93,25 @@ int main()
     }
     return 0;
 }
+
+
+
+#include<stdio.h>
+ 
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    int evod = n;
+    while(evod>=10){
+        evod=evod/10;
+    };
+    if(evod%2==0)
+    {
+        printf("EVEN\n");
+    }else
+    {
+        printf("ODD\n");
+    }
+    return 0;
+}
