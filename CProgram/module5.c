@@ -34,3 +34,40 @@ int main()
     return 0;
 }
 
+
+#include<stdio.h>
+
+int main()
+{
+    char x;
+    scanf("%c",&x);
+    int boro,choto;
+    if(x>=97&&x<=122)
+    {
+        boro=x-32;
+        printf("%c\n",boro);
+    }else
+    {
+        choto=x+32;
+        printf("%c\n",choto);
+    }
+    return 0;
+}
+
+
+
+#include<stdio.h>
+
+int main()
+{
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if(a>=b)
+    {
+        printf("Yes\n");
+    }else
+    {
+        printf("No\n");
+    }
+    return 0;
+}
