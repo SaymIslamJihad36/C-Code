@@ -7,7 +7,7 @@
 
 //1) Write a C program to find maximum between two numbers.
 
-
+/*
 #include<stdio.h>
 
 int main(){
@@ -459,4 +459,49 @@ int main()
     }
     printf("First digit is = %d\n",first);
     printf("Last digit is = %d\n",last);
+}
+
+
+#include<stdio.h>
+
+int main()
+{
+    int n,first;
+    printf("Enter n : ");
+    scanf("%d",&n);
+    first = n;
+    for(;first>=10;){
+        first = first/10;
+    }
+    printf("First digit is = %d\n",first);
+}
+*/
+// #include<stdio.h>
+
+// int main(){
+//     int n;
+//     scanf("%d",&n);
+//     //int b = n/1000;
+//     if((n/1000)%2==0){
+//         printf("EVEN\n");
+//     }else{
+//         printf("ODD\n");
+//     }
+// }
+
+#include<stdio.h>
+
+int main()
+{
+    char x;
+    scanf("%c",&x);
+    int boro;
+    if(x>='a' && x<='z'){
+        boro = x-32;
+        printf("%c\n",boro);
+    }else{
+        int choto = x+32;
+        printf("%c\n",choto);
+    }
+    return 0;
 }
